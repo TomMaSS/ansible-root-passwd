@@ -1,0 +1,8 @@
+FROM williamyeh/ansible:ubuntu16.04
+
+WORKDIR /tmp
+COPY  .  /tmp/ansible-root-passwd
+
+RUN echo 127.0.0.1 > inventory
+
+RUN ansible-playbook -i inventory ansible-root-passwd/tests/provision.yml --connection=local --sudo

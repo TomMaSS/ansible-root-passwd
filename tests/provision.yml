@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - {role: ansible-root-passwd, root_password: $1$xyz$IfAWr/Pbmpx80TTPdTZV.0}
