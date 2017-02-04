@@ -3,7 +3,7 @@ ansible-root-passwd
 
 This role chage root password
 
-[![Ansible Galaxy](https://img.shields.io/ansible/role/15422.svg)](https://galaxy.ansible.com/salamachinas/root-pswd/)
+[![Ansible Galaxy](https://img.shields.io/ansible/role/15422.svg)](https://galaxy.ansible.com/salamachinas/root-passwd/)
 
 Requirements
 ------------
